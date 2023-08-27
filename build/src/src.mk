@@ -1,1 +1,1 @@
-include $(TOP_DIR)/build/src/uboot/*.mk
+include $(TOP_DIR)/build/src/*/*.mk

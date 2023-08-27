@@ -1,0 +1,14 @@
+ICM20608_SRC_DIR  := $(SRC_DIR)/kernel/drivers/icm20608/src
+
+#目标名称
+ICM20608_TARGET_NAME := icm20608
+
+icm20608:
+	make MODULE_DIR=$(ICM20608_SRC_DIR) MODULE_NAME=$(ICM20608_TARGET_NAME) build_linux_module
+
+
+icm20608-clean:
+	make MODULE_DIR=$(ICM20608_SRC_DIR) MODULE_NAME=$(ICM20608_TARGET_NAME) clean_linux_module
+
+DRV_MK += icm20608
+DRV_CLEAN += icm20608-clean

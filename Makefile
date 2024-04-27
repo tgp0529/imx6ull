@@ -8,5 +8,5 @@ export BUILD_DIR
 
 
 include $(BUILD_DIR)/build.mk
-#include $(BUILD_DIR)/rule.mk
+include $(BUILD_DIR)/rules.mk
 #include $(BUILD_DIR)/platform.mk

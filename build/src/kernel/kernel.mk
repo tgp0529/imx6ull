@@ -16,4 +16,6 @@ kernel:
 kernel-clean:
 	make $(KERNEL_COMPILE_OPT) clean
 
+SYS += kernel
+SYS_CLEAN += kernel-clean
 .PHONY: kernel kernel-clean kernel-menuconfig

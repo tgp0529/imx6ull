@@ -1,0 +1,2 @@
+src/uboot/out/*
+src/uboot/src/.config.old

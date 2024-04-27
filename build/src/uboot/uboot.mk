@@ -16,4 +16,6 @@ uboot:
 uboot-clean:
 	make $(UBOOT_COMPILE_OPT) clean
 
+SYS += uboot
+SYS_CLEAN += uboot-clean
 .PHONY: uboot uboot-clean uboot-menuconfig
